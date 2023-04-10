@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.elem-inicio{
+    list-style: none;
+    grid-row: auto;
+}
+
+.barra-nav{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio{
+    background-color: #141429;
+    height: 700px;
+    width: 1440px;
+    display: flex;
+}
+
+.inicio2{
+    background-color: #8F7C36;
+    height: 540px;
+    width: 1440px;
+    display: flex;
+}
+
+.testimonios{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    height: 700px;
+    width: 1440px;
+    border-top:3px solid #8F7C36;
+}
+
+.titu-inicio{
+    color:#8F7C36
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.izq{
+    background-color: #fff;
+    height: 700px;
+    width: 720px;
+    float: left;
+}
+
+.der{
+    background-color: #141429;
+    height: 700px;
+    width: 720px;
+    float: right;
+}
+
+.sucursales{
+    background-color: #8F7C36;
+    color: white;
+    height: 700px;
+    width: 1440px;
+    border-top:3px solid #fff;
+}
+
+.tipo-cambio{
+    background-color: #141429;
+    color: white;
+    height: 700px;
+    width: 1440px;
+    border-top:3px solid #8F7C36;
+}
+
+.contacto{
+    background-color: #8F7C3669;
+    color: white;
+    height: 700px;
+    width: 1440px;
+    /* border-top:3px solid #8F7C36; */
+}
+
+.foot{
+    background-color: #fff;
+    height: 200px;
+    width: 1440px;
+    border-top:3px solid #8F7C36;
+}
+
+.titu-blindaje{
+    color: #8F7C36;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.p-blindaje{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.titu-proceso{
+    color: #8F7C36;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.p-proceso{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.titu-test{
+    font-weight: bold;
+    color: #141429;
+    margin-top: 50px;
+    margin-left: 450px;
+}
+
+.test-caja{
+    background-color: #000;
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 80px;
+    margin: white;
+}
+
+.caja-test{
+    display: flex;
+
+}
